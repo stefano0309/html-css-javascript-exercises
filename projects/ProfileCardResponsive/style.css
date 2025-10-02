@@ -1,1 +1,31 @@
-ECHO attivo.
+.parent{
+    display: flex;
+    justify-content: center;  
+    align-items: center;      
+    flex-direction: column;   
+    text-align: center;
+    height: 40vh;            
+}
+
+.button{
+    height: 10vh;
+    width: 25vh;
+    border-radius: 5vh;
+    background-color: black;
+    color: white;
+    font-size: medium;
+}
+
+#up{
+    background-color: gray;
+    height: 35vh;
+    width: 70vh;
+    border-radius: 5vh 5vh 0 0 ;
+}
+
+#down{
+    background-color: whitesmoke;
+    height: 50vh;
+    width: 70vh;
+    border-radius: 0 0 5vh 5vh;
+}
